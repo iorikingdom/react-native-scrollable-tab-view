@@ -212,7 +212,7 @@ const ScrollableTabBar = createReactClass({
 
   onContainerLayout(e) {
     this._containerMeasurements = e.nativeEvent.layout;
-    t this.updateView({value: this.props.scrollValue.__getValue(), });
+    this.updateView({value: this.props.scrollValue.__getValue(), });
   },
 });
 
